@@ -8,10 +8,10 @@
     "alias": "math-server.now.sh"
   },
   "scripts": {
-    "start":"node .",
+    "start":"node index.js",
     "test": "jest",
     "script": "node index.js",
-    "deploy": "now -e NODE_ENV=production --token $NOW_TOKEN --npm",
+    "deploy": "now -e NODE_ENV=production --public --token $NOW_TOKEN --npm",
     "alias": "now alias --token=$NOW_TOKEN"
   },
   "author": "",
