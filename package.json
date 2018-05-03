@@ -8,6 +8,7 @@
     "alias": "math-server.now.sh"
   },
   "scripts": {
+    "start":"node .",
     "test": "jest",
     "script": "node index.js",
     "deploy": "now -e NODE_ENV=production --token $NOW_TOKEN --npm",
